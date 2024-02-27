@@ -15,11 +15,24 @@ body {
     line-height: 127px;
     letter-spacing: 0em;
     text-align: center;
+    background: #1B244A;
+
 
 }
 
-#homescore-el {
-    border: 5px solid green;
+h3 {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#gscore-el {
+    background: #0a0001;
+    // border: 5px solid green;
     margin: 5px 5px;
     padding: 30px 30px;
     color: #F94F6D;
@@ -35,8 +48,9 @@ body {
     left: 100px;
 }
 
-#guestscore-el {
-    border: 5px solid green;
+#hscore-el {
+    background: #0a0001;
+    // border: 5px solid green;
     margin: 5px 5px;
     padding: 30px 30px;
     color: #F94F6D;
@@ -51,6 +65,7 @@ body {
     top: 125px;
     left: 100px;
 }
+
 
 #btn-hg {
 width: 45px;
